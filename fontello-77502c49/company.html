@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>삼성회사소개</title>
+    <style>
+    *{ 
+	    margin: 0; padding: 0; 
+        }
+    body{
+	    font-family: "맑은 고딕", sans-serif;
+	    font-size: 12px;
+	    color: #444;
+        
+    }
+    ul{ list-style-type: none; }
+        
+   
+		
+#page{
+			width: 980px;
+			margin: 0 auto;
+            background: #fff;
+            height: 1200px;
+		}
+.clear{
+            position: absolute;
+            text-align:center;
+            font-size: 16px;
+            right: 0;
+            top:40px;
+            
+        }
+/*
+#bottom_menu{
+            border: 1px solid;
+            background-color: #3366CC;
+            color: white;
+            padding-top:3px;  
+            padding-bottom:6px;
+            padding-left: 5px;
+            padding-right: 5px;
+            margin-right: 15px;
+            border-radius: 9px;
+        }
+*/
+header{
+            border-bottom: 1px solid #ccc;
+            position: relative;
+            height: 110px;
+        }
+header #logo{
+			float: left;
+			margin-top:10px;
+            padding-top: 10px;                
+		}
+header #moto{
+			float: left;
+			margin: 50px 0 0 0;
+		}
+header #top_menu{
+			float: right;
+            padding-top: 10px;
+		}
+header #top_menu > li{ display: inline; }
+header #top_menu > #id{
+            background-color: #ccc;
+            color: white;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            padding-left: 5px;
+            padding-right: 5px;
+            border-radius: 9px;
+            }        
+
+header a{
+    text-decoration: none;
+    color: dimgray;
+}
+header a:hover{
+    color:#3366CC; 
+}
+header #id a{
+    color: white;
+}
+header #bottom_menu a{
+    color: white;
+    
+}
+header nav ul{
+			margin-top: 25px;
+			/* border: 1px solid red; */
+			padding: 0; 
+
+		}
+header nav ul li{ 
+			display: inline;
+			margin-left: 40px; 
+		}
+header nav ul li:first-child{
+			margin-left: 0;
+		}
+        
+    #page .page-main{
+        position: relative;
+        width: 980px;
+        height: 340px;
+    }
+    
+    .index_bg2, .index_bg1, .index_bg3{
+       width: 980px;
+       height: 340px;
+       border-radius: 15px;
+       box-shadow: 5px 5px 10px;
+       margin: 20px auto;
+       position: relative;    
+            
+     } 
+    .index_bg2 h1, .index_bg1 h1, .index_bg3 h1{
+            position: absolute;
+/*            border: 1px solid red;*/
+            top:80px;
+            left: 50px;
+        }
+    .index_bg2 h2, .index_bg1 h2, .index_bg3 h2{
+            position: absolute;
+/*            border: 1px solid blue;*/
+            top:120px;
+            left: 50px;
+        }
+    .index_bg2{
+       background: url(images/bg_2.png);
+       background-repeat: no-repeat;  
+    }
+    .index_bg1{
+       background: url(images/bg_1.png);
+       background-repeat: no-repeat; 
+     }    
+    .index_bg3{
+        background: url(images/bg_3.png);
+        background-repeat: no-repeat; 
+    } 
+    #index_bg-list{
+        position: absolute;
+/*        border: 1px solid green;*/
+        bottom: 30px;
+        left: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        width: 400px;
+        
+    }
+#index_bg-list li{
+    margin: 10px;
+    }
+
+button a{
+    text-decoration: none;
+    color: #1976D2;
+            
+        }
+ .button1 {
+    background-color: white; 
+    color: #1976D2;
+    font-weight: bold;
+    border: 1px solid #1976D2;
+    position: absolute;
+    left: 80%;
+    font-size: 18px;
+    bottom: 10px;
+    width: 200px;
+    padding: 5px 10px;
+    border-radius: 10px;
+     
+}
+
+.button1:hover {
+    background-color: #1976D2;
+    color: white;
+}
+
+.button1 a:hover{
+    color: white;
+}      
+
+     /*footer*/
+        
+     .page_end{
+            width: 980px;
+            border-top: 2px solid #ccc;
+            margin-left:140px;
+            margin-top:10px;
+            
+        }
+       .address{
+            float: left;
+            margin-left: 5%;
+           
+        }
+        a{text-decoration: none;
+        color:#000;}
+        .per_info {
+           margin: 5px;
+        }
+        .per_info li{
+            display: inline-block;
+        }
+        #link{
+            float:right;        
+            margin-right: 10%;
+        }
+
+    </style>
+</head>
+<body>
+<div id="page">
+    <header>
+			<div id="logo_wrap">
+                 <a href="index.html">
+                    <img src="images/LOGO2.png" alt="logo" id="logo">
+                 </a>                    
+			</div>
+            
+			
+			<ul id="top_menu">
+				<input title="검색어를 입력하세요" class="search" type="text">
+				<li id="id"><a href="#">로그인</a></li>
+				<li><a href="#">회원가입 l</a></li>
+				<li><a href="#">사이트맵 l</a></li>
+				<li><a href="#">회사소개</a></li>								
+			</ul>
+			
+			<div class="clear">
+			<nav>
+				<ul>
+					<li><strong><a href="#">삼성생명소개</a></strong></li>
+					<li><strong><a href="#">사회공헌</a></strong></li>
+					<li><strong><a href="#">지속가능경영</a></strong></li>
+					<li><strong><a href="#">홍보센터</a></strong></li>
+					<li><strong><a href="#">투자정보</a></strong></li>
+					<li><strong><a href="#">채용정보</a></strong></li>
+					
+				</ul>
+			</nav>
+			</div>
+			<div class="line"></div>
+    </header>
+    <div class="page-main">
+      <div class="index_bg2">
+         <h1>사람, 사랑 그리고 삼성생명</h1>
+         <h2> 보험은 <span>사랑</span>입니다.<br>
+         사랑은 고객을 향한 삼성생명의 마음입니다.</h2>
+         <div id="index_bg-list">
+             <ul>
+                 <li>CEO 인사말</li>
+                 <li>사업영역</li>
+                 <li>업의 개념 및 비전</li>
+                 <li>연혁</li>
+             </ul>
+              <button class="button button1"><a href="index.html">삼성생명 바로가기</a></button>
+         </div>
+         
+      </div>
+      <div class="index_bg1">
+         <h1>사람, 사랑 그리고 따뜻한 나눔</h1>
+         <h2> 삼성생명은 지난 30여 년간 다양한 나뭄을 펼쳐왔습니다.<br>
+            따뜻한 나눔을 통해 <span>진정한 사람사랑 세상</span>을 만들겠습니다.</h2>
+        <div id="index_bg-list">
+             <ul>
+                 <li>세살마을</li>
+                 <li>사람,사랑 생명사랑 자살예방사업</li>
+                 <li>사람,사랑 세로토닌 드럼클럽</li>
+             </ul>
+              <button class="button button1"><a href="#">자세히 보기</a></button>
+         </div>
+         
+     </div>
+     <div class="index_bg3">
+         <h1>사람, 사랑 그리고 아름다운 동행</h1>
+         <h2>삼성생명은 주주와 고객,사회와 국가에게<br>
+             <span>변함없는 믿음</span>을 전하겠습니다.</h2>
+        <div id="index_bg-list">
+             <ul>
+                 <li>세살마을</li>
+                 <li>사람,사랑 생명사랑 자살예방사업</li>
+                 <li>사람,사랑 세로토닌 드럼클럽</li>
+             </ul>
+              <button class="button button1"><a href="#">자세히 보기</a></button>
+         </div>
+         
+     </div>
+      
+  </div>
+ 
+</div>
+    <footer class="page_end">
+			<div class="address">
+				<ul class="per_info">
+					<li><strong><a title="새창열림" target="_blank" href="#">개인정보처리방침 |</a></strong></li>
+					<li><a href="#">회원가입약관|</a></li>
+					<li><a href="#">전자금융거래 표준약관 |</a></li>
+					<li><a href="#">개인정보관리 책임자 |</a></li>
+					<li class="infor_last"><a href="#">전자금융거래 분쟁처리 책임자</a></li>
+				</ul>
+				<ul id="company_info">
+					<li>삼성생명보험주식회사 대표이사 김창수 | 사업자등록번호 104-81-26688</li>
+					<li>서울시 특별시 서초대로 74길 14(서초동, 삼성생명)</li>
+					<li id="copyright">Copyright &copy;SAMSUNG LIFE INSURANCE. ALL RIGHTS RESERVED</li>
+					
+				</ul>
+				
+			</div>
+			
+			<div id="link">
+				<h3>고객센터 1588-3114</h3>
+				<div id="icons">
+					<img src="images/f.gif" alt="facebook">
+					<img src="images/b.gif" alt="blog">
+					<img src="images/t.gif" alt="twitter">
+				</div>
+				<select name="" id="" width="40px">
+					<option value="">네이버</option>
+					<option value="">다음</option>
+					<option value="">구글</option>
+				</select>
+			</div>
+		</footer>
+   
+</body>
+</html>
